@@ -7,7 +7,7 @@ function Summary() {
   return (
     <article className="summary">
       <h2 className="summary-heading">Summary</h2>
-      {cardList}
+      <div className="card-list">{cardList}</div>
       <button className="btn">Continue</button>
     </article>
   );

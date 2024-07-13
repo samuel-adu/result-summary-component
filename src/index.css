@@ -46,6 +46,10 @@ body {
   min-height: 100svh;
 }
 
+p {
+  line-height: 1.6;
+}
+
 main {
   background-color: var(--white);
 }
@@ -102,6 +106,10 @@ main {
   color: var(--dark-gray-blue);
   font-size: 1.25rem;
   margin-bottom: 1rem;
+}
+
+.card-list {
+  margin-bottom: 2rem;
 }
 
 .card {
@@ -168,7 +176,6 @@ main {
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
-  margin-top: 1rem;
 }
 
 .btn:hover,
@@ -189,12 +196,26 @@ main {
     height: 200px;
   }
 
+  .text-l {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
   .result {
     border-radius: 2rem;
     padding-inline: 5.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .summary {
-    padding-inline: 2.5rem;
+    padding: 2.5rem;
+  }
+
+  .summary-heading {
+    margin-bottom: 2rem;
+  }
+
+  .card-list {
+    margin-bottom: 2.5rem;
   }
 }
