@@ -6,7 +6,7 @@ function Summary() {
 
   return (
     <article className="summary">
-      <h3 className="summary-heading">Summary</h3>
+      <h2 className="summary-heading">Summary</h2>
       {cardList}
       <button className="btn">Continue</button>
     </article>
